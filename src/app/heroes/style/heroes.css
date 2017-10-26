@@ -1,0 +1,20 @@
+.heroes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+}
+
+.hero {
+  border: solid #482395 1px;
+  border-radius: 5px;
+  width: 75px;
+  height: 25px;
+  margin: 10px;
+  text-align: center;
+  padding: 25px 5px;
+  cursor: pointer;
+  background-color: rgba(87, 36, 124, 0.50);
+  /* #29177A; */
+  user-select: none;
+
+}

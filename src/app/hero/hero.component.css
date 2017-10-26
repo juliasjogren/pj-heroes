@@ -1,0 +1,31 @@
+.hero-info {
+  height: 40%;
+  border-bottom: solid #492395 2px;
+  border-top: solid #492395 2px;
+  border-radius: 30px;
+  padding: 4%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  width: 70%;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  display: flex;
+}
+
+.picture {
+  flex: 1 1 auto;
+  height: 100%;
+  width: 50%;
+}
+
+.picture img {
+  height: 100%;
+  width: 100%;
+  border-radius: 70px;
+}
+
+.description {  
+  flex: 3 1 auto;
+  height: 100%;
+  width: 100%;
+}

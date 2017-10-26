@@ -1,0 +1,18 @@
+header {
+  text-align: center;
+  padding: 2%;
+}
+
+#P {
+  color: #950909;
+  text-shadow: -0.5px 0 white, 0 0.5px white, 0.5px 0 white, 0 -0.5px white;
+}
+
+#J {
+  color: #BE9E57;
+  text-shadow: -0.5px 0 white, 0 0.5px white, 0.5px 0 white, 0 -0.5px white;
+}
+
+footer {
+  height: 40px;
+}

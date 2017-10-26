@@ -1,0 +1,41 @@
+#search {
+  border-bottom: solid #492395 2px;
+  border-top: solid #492395 2px;
+  border-radius: 30px;
+  padding: 3%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  width: 70%;
+  text-align: center;
+}
+
+#type {
+  height: 50%;
+  margin-bottom: 25px;
+  width: 30%;
+ }
+ 
+ #type input {
+  border: none;
+  border-radius: 15px;
+  background-color: rgba(87, 36, 124, 0.50);  
+  color: white;
+  padding: 3%;
+  width: 100%;
+  height: 100%;
+}
+
+#buttons {
+  height: 50%;
+  user-select: none;
+}
+
+.button {
+  cursor: pointer;
+  background-color: #43189A;
+  border-radius: 5px 25px;
+  display: inline; 
+  margin-left: 18px;
+  margin-right: 18px;
+  padding-left: 15px;
+  padding-right: 15px;
+}

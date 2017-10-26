@@ -1,0 +1,16 @@
+<div id ="search">
+  <div id="type"><input (keyup)="onKey($event)"[(ngModel)]="Search" placeholder="Type hero name"></div>
+  <div id="buttons">
+    <div class="button" (click)="onClick('Assassin')">Assassin</div>
+    <div class="button" (click)="onClick('Multi-class')">Multi-class</div>
+    <div class="button" (click)="onClick('Specialist')">Specialist</div>
+    <div class="button" (click)="onClick('Support')">Support</div>
+    <div class="button" (click)="onClick('Warrior')">Warrior</div>
+  </div>
+</div>
+
+<router-outlet></router-outlet>
+
+<div class="heroes">
+  <div class="hero" routerLink="/hero/{{hero.name}}" *ngFor="let hero of heroes">{{hero.name}}</div> 
+</div>
